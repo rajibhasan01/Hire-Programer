@@ -30,14 +30,12 @@ const Conatiner = () => {
         const searchText = event.target.value;
         const matchedProducts = developers.filter(developer => developer.designation.toLowerCase().includes(searchText.toLowerCase()));
         setDisplayProducts(matchedProducts);
-        console.log(matchedProducts.length);
     }
 
     const handleSearchByCountry = event => {
         const searchText = event.target.value;
         const matchedProducts = developers.filter(developer => developer.country.toLowerCase().includes(searchText.toLowerCase()));
         setDisplayProducts(matchedProducts);
-        console.log(matchedProducts.length);
     }
 
     return (
