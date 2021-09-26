@@ -6,10 +6,16 @@ import Developer from '../Developer/Developer';
 const Conatiner = () => {
     const [developers, setDevelopers] = useState([]);
     const [cart, setCart] = useState([]);
+    const [displayProducts, setDisplayProducts] = useState([]);
+
+
     useEffect(() => {
         fetch('./data.JSON')
             .then(res => res.json())
-            .then(data => setDevelopers(data));
+            .then(data => {
+                setDevelopers(data)
+                setDisplayProducts(data);
+            });
     }, []);
 
     const handleHire = (developer) => {
@@ -20,20 +26,42 @@ const Conatiner = () => {
         setCart(newCart);
     }
 
+    const handleSearch = event => {
+        const searchText = event.target.value;
+        const matchedProducts = developers.filter(developer => developer.designation.toLowerCase().includes(searchText.toLowerCase()));
+        setDisplayProducts(matchedProducts);
+        console.log(matchedProducts.length);
+    }
+
+    const handleSearchByCountry = event => {
+        const searchText = event.target.value;
+        const matchedProducts = developers.filter(developer => developer.country.toLowerCase().includes(searchText.toLowerCase()));
+        setDisplayProducts(matchedProducts);
+        console.log(matchedProducts.length);
+    }
+
     return (
         <div className="container mt-3">
             <div className="d-flex d-flex justify-content-evenly">
                 <div>
                     <p className="text-warning text-center fw-bold">Programer Type</p>
-                    <input type="text" className="rounded border-0" />
+                    <input type="text"
+                        onChange={handleSearch}
+                        className="rounded border-0 ps-3"
+                        placeholder="Search here"
+                    />
                 </div>
                 <div>
                     <p className="text-warning text-center fw-bold">Country</p>
-                    <input type="text" className="rounded border-0" />
+                    <input type="text"
+                        onChange={handleSearchByCountry}
+                        className="rounded border-0 ps-3"
+                        placeholder="Search here"
+                    />
                 </div>
                 <div>
                     <p className="text-warning text-center fw-bold">Salary Range</p>
-                    <input type="range" />
+                    <input type="range" min="1" max="100000" />
                 </div>
             </div>
 
@@ -41,7 +69,7 @@ const Conatiner = () => {
                 <div className="col-9">
                     <div className="row g-2">
                         {
-                            developers.map(developer => <Developer
+                            displayProducts.map(developer => <Developer
                                 key={developer.key}
                                 developer={developer}
                                 handleHire={handleHire}
