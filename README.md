@@ -17,3 +17,7 @@ We use the bootstap 5.1
 ### `Font Awesome`
 We use font awesome icon.
 
+### `Issues`
+If you encounter any problems feel free to open a new issue. Before that check other closed issues and check if your issue matches with any older issues.
+
+
