@@ -11,5 +11,5 @@ In the project we use:
 We use the bootstap 5.1
 
 ### `Font Awesome`
-We usw font awesome icon
+We use font awesome icon.
 
