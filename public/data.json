@@ -17,7 +17,8 @@
 		"phone": "057-661-2577",
 		"company": "Dolor Vitae Dolor Foundation",
 		"country": "Bangladesh",
-		"email": "mauris.a@auguescelerisquemollis.net",
+		"email": "mauris.a@auguesceisquemollis.net",
+		"star": 3,
 		"salary": 60212
 	},
 	{
@@ -38,6 +39,7 @@
 		"company": "In At Consulting",
 		"country": "Bangladesh",
 		"email": "egestas@risusduis.org",
+		"star": 4,
 		"salary": 58744
 	},
 	{
@@ -56,7 +58,8 @@
 		"phone": "086-093-0166",
 		"company": "Massa Integer Foundation",
 		"country": "Poland",
-		"email": "arcu.aliquam@elementumduiquis.co.uk",
+		"email": "arcu.aliquam@elementuiquis.co.uk",
+		"star": 4,
 		"salary": 77337
 	},
 	{
@@ -76,6 +79,7 @@
 		"company": "Convallis Est Vitae LLC",
 		"country": "India",
 		"email": "pellentesque@cursusdiamat.net",
+		"star": 2,
 		"salary": 78142
 	},
 	{
@@ -95,6 +99,7 @@
 		"company": "Pretium Corporation",
 		"country": "Belgium",
 		"email": "lacus@vestibulumneque.org",
+		"star": 3,
 		"salary": 75019
 	},
 	{
@@ -114,6 +119,7 @@
 		"company": "Non Dapibus Industries",
 		"country": "Austria",
 		"email": "nibh.sit.amet@eu.com",
+		"star": 3,
 		"salary": 54892
 	},
 	{
@@ -132,7 +138,8 @@
 		"phone": "088-300-4062",
 		"company": "Gravida Mauris Ut Incorporated",
 		"country": "Mexico",
-		"email": "sodales.elit.erat@vehicula.net",
+		"email": "sodes.elit.erat@vehla.net",
+		"star": 4,
 		"salary": 67281
 	},
 	{
@@ -154,6 +161,7 @@
 		"company": "Qbix Limited",
 		"country": "Pakistan",
 		"email": "congue.a@orcitincidunt.org",
+		"star": 4,
 		"salary": 36125
 	},
 	{
@@ -173,7 +181,8 @@
 		"phone": "048-571-5363",
 		"company": "Suscipit Est Ac Industries",
 		"country": "Australia",
-		"email": "sed.orci.lobortis@acarcununc.ca",
+		"email": "sed.orci.lobtis@acanunc.ca",
+		"star": 3,
 		"salary": 38401
 	},
 	{
@@ -195,6 +204,7 @@
 		"company": "Urna Suscipit Corporation",
 		"country": "Belgium",
 		"email": "at@atvelit.co.uk",
+		"star": 4,
 		"salary": 72145
 	},
 	{
@@ -215,6 +225,7 @@
 		"company": "Nulla Vulputate LLC",
 		"country": "Colombia",
 		"email": "enim.nec@nec.net",
+		"star": 2,
 		"salary": 76878
 	},
 	{
@@ -234,7 +245,8 @@
 		"phone": "060-577-5248",
 		"company": "Cursus Diam PC",
 		"country": "Italy",
-		"email": "ipsum.phasellus@donec.co.uk",
+		"email": "ipsum.phasllus@donec.co.uk",
+		"star": 3,
 		"salary": 31650
 	},
 	{
@@ -254,6 +266,7 @@
 		"company": "In Mi Institute",
 		"country": "Ireland",
 		"email": "metus@necurnaet.edu",
+		"star": 3,
 		"salary": 59675
 	},
 	{
@@ -273,6 +286,7 @@
 		"company": "Accumsan Convallis LLC",
 		"country": "Indonesia",
 		"email": "phasellus@euenimetiam.com",
+		"star": 4,
 		"salary": 40018
 	},
 	{
@@ -293,7 +307,8 @@
 		"phone": "026-970-1464",
 		"company": "Quam Elementum At Corporation",
 		"country": "Peru",
-		"email": "cursus@faucibuslectusa.co.uk",
+		"email": "cursus@faucibustusa.co.uk",
+		"star": 2,
 		"salary": 42358
 	},
 	{
@@ -312,7 +327,8 @@
 		"phone": "083-816-8783",
 		"company": "Neque Vitae Semper Company",
 		"country": "Chile",
-		"email": "tincidunt.adipiscing@euelit.co.uk",
+		"email": "tincidunt.adiscing@euelit.co.uk",
+		"star": 3,
 		"salary": 43793
 	},
 	{
@@ -333,7 +349,8 @@
 		"phone": "040-313-1595",
 		"company": "Ligula Nullam Limited",
 		"country": "Costa Rica",
-		"email": "natoque.penatibus.et@afacilisis.co.uk",
+		"email": "natoque.pbus.et@afaisis.co.uk",
+		"star": 3,
 		"salary": 50182
 	},
 	{
@@ -353,6 +370,7 @@
 		"company": "A Auctor Institute",
 		"country": "United States",
 		"email": "urna@et.ca",
+		"star": 4,
 		"salary": 32964
 	},
 	{
@@ -372,7 +390,8 @@
 		"phone": "037-331-3629",
 		"company": "Consequat Dolor Limited",
 		"country": "Germany",
-		"email": "vulputate.lacus@convallis.org",
+		"email": "vulpute.lacus@conlis.org",
+		"star": 4,
 		"salary": 38080
 	},
 	{
@@ -392,7 +411,8 @@
 		"phone": "024-762-2324",
 		"company": "Aenean Egestas Hendrerit Associates",
 		"country": "Netherlands",
-		"email": "viverra.maecenas.iaculis@pretiumet.ca",
+		"email": "viverculis@pretiumet.ca",
+		"star": 2,
 		"salary": 29794
 	}
 ]

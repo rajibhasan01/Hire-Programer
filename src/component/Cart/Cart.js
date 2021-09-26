@@ -11,7 +11,7 @@ const Cart = (props) => {
     }
     return (
         <div className="bg-warning rounded mt-5 px-3 sticky-top">
-            <p className="text-center pt-3 text-dark fw-bold fs-5 text"><i class="fas fa-user-check text-muted"></i> Employee Hired: <span className="text-danger">{cart.length}</span></p>
+            <p className="text-center pt-3 text-dark fw-bold fs-5 text"><i className="fas fa-user-check text-muted"></i> Employee Hired: <span className="text-danger">{cart.length}</span></p>
             {
                 cart.map(cartItem =>
                     <CartItem

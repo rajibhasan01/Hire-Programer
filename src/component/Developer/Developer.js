@@ -1,9 +1,10 @@
 import React from 'react';
+import Rating from 'react-rating';
 import Skill from '../Skill/Skill';
 import './Developer.css';
 
 const Developer = (props) => {
-    const { first_name, last_name, designation, salary, country, company, email, phone, image, skills } = props.developer;
+    const { first_name, last_name, designation, salary, country, company, email, phone, image, skills, star } = props.developer;
 
     return (
         <div className="col-12 col-md-6 col-lg-4 pt-5">
@@ -16,7 +17,14 @@ const Developer = (props) => {
                     </div>
                     <div className="ms-2 fw-bold text-secondary lh-1 pt-3">
 
-                        <p>{country}</p>
+                        <div className="d-flex justify-content-between">
+                            <p>{country}</p>
+                            <Rating
+                                initialRating={star}
+                                emptySymbol="far fa-star icon"
+                                fullSymbol="fas fa-star icon"
+                                readonly />
+                        </div>
                         <p>{phone}</p>
 
                         <p><small className="text-success">{email}</small></p>
