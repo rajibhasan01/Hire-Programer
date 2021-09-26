@@ -1,4 +1,5 @@
 import React from 'react';
+import './CartItem.css';
 
 const CartItem = (props) => {
     const { image, first_name, last_name, designation, salary } = props.cartItem;

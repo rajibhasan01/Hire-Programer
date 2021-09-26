@@ -8,7 +8,7 @@ const Conatiner = () => {
     const [cart, setCart] = useState([]);
     const [displayProducts, setDisplayProducts] = useState([]);
 
-
+    // fetch data from database
     useEffect(() => {
         fetch('./data.JSON')
             .then(res => res.json())
@@ -18,6 +18,7 @@ const Conatiner = () => {
             });
     }, []);
 
+    // Hired employee count function
     const handleHire = (developer) => {
         if (cart.includes(developer)) {
             return;
@@ -26,6 +27,7 @@ const Conatiner = () => {
         setCart(newCart);
     }
 
+    // developer searching function
     const handleSearch = event => {
         const searchText = event.target.value;
         const matchedProducts = developers.filter(developer => developer.designation.toLowerCase().includes(searchText.toLowerCase()));
